@@ -9,4 +9,4 @@ Most interesting problems (imo) so far and why:
 - ex24: use of permutations - gigantic performance booster
 - ex28: designing algorithm to build the spiral
 - ex30: recursion vs dynamic programming
-- ex35: several opt steps to recude computational time
+- ex35: several opt steps to reduce computational time
