@@ -11,3 +11,4 @@ Most interesting problems (imo) so far and why:
 - ex30: recursion vs dynamic programming
 - ex35: several opt steps to reduce computational time
 - ex39: taking highschool trigonometry out of the closet ^^
+- ex54: building entire logic of poker
