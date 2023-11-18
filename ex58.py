@@ -1,0 +1,43 @@
+#<p>Starting with $1$ and spiralling anticlockwise in the following way, a square spiral with side length $7$ is formed.</p>
+#<p class="center monospace"><span class="red"><b>37</b></span> 36 35 34 33 32 <span class="red"><b>31</b></span><br>
+#38 <span class="red"><b>17</b></span> 16 15 14 <span class="red"><b>13</b></span> 30<br>
+#39 18 <span class="red"> <b>5</b></span>  4 <span class="red"> <b>3</b></span> 12 29<br>
+#40 19  6  1  2 11 28<br>
+#41 20 <span class="red"> <b>7</b></span>  8  9 10 27<br>
+#42 21 22 23 24 25 26<br><span class="red"><b>43</b></span> 44 45 46 47 48 49</p>
+#<p>It is interesting to note that the odd squares lie along the bottom right diagonal, but what is more interesting is that $8$ out of the $13$ numbers lying along both diagonals are prime; that is, a ratio of $8/13 \approx 62\%$.</p>
+#<p>If one complete new layer is wrapped around the spiral above, a square spiral with side length $9$ will be formed. If this process is continued, what is the side length of the square spiral for which the ratio of primes along both diagonals first falls below $10\%$?</p>
+	
+def isPrime(n):
+    if(n==2):
+        return True
+    else:
+        for i in range(2, int(n**0.5) + 1):
+            if(n%i==0):
+                return False
+        return True
+	
+#there is no need to generate the entire spiral
+#we can simply generate the numbers on the diagonals
+targetRatio=0.1
+i=0
+#distance between points of the diagonals on saw row/column
+d=1
+r=1
+#alreary consider spiral center (not prime)
+countAll=1
+countPrimes=0
+while(r>targetRatio):
+    for j in range(4):
+        countAll+=1
+        i+=d
+		#calculate number on diagonal
+        n=2*i+1     
+        if(isPrime(n)):
+            countPrimes+=1
+    r=countPrimes/countAll
+    #print(r,i)
+    d+=1
+ 
+#edge length 
+print((2*i+1)**0.5)
