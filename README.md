@@ -5,7 +5,7 @@ Find out more at projecteuler.net
 Most interesting problems (imo) so far and why:
 - ex14: dynamic programming
 - ex15: just a math problem
-- ex18: bottom-up approach
+- ex18: bottom-up approach (same for ex67)
 - ex24: use of permutations - gigantic performance booster
 - ex28: designing algorithm to build the spiral
 - ex30: recursion vs dynamic programming
@@ -13,3 +13,4 @@ Most interesting problems (imo) so far and why:
 - ex39: taking highschool trigonometry out of the closet ^^
 - ex54: building entire logic of poker
 - ex61: probably the deepest but well structured nest I have ever written
+- ex66: quadratic Diophantine equations required SO MUCH research time. Several trial and error attemps
