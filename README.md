@@ -14,3 +14,4 @@ Most interesting problems (imo) so far and why:
 - ex54: building entire logic of poker
 - ex61: probably the deepest but well structured nest I have ever written
 - ex66: quadratic Diophantine equations required SO MUCH research time. Several trial and error attemps
+ex69-70: brute force attempt provided a suggestion to the asnwers ^^ always invest time on trying stuff out
