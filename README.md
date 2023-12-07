@@ -5,7 +5,7 @@ Find out more at projecteuler.net
 Most interesting problems (imo) so far and why:
 - ex14: dynamic programming
 - ex15: just a math problem
-- ex18: bottom-up approach (same for ex67)
+- ex18-67-81-82-83: from bottom-up approach to Dijkstra's algorithm to find minimum path
 - ex24: use of permutations - gigantic performance booster
 - ex28: designing algorithm to build the spiral
 - ex30: recursion vs dynamic programming
